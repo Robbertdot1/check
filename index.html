@@ -681,9 +681,7 @@ document.getElementById("themeBtn").onclick=()=>{let dark=document.body.dataset.
 if(localStorage.getItem("theme")==="dark")document.getElementById("themeBtn").click();
 
 if(currentUser){startApp()}
-</script>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script>
+
 const SUPABASE_URL = "https://lbsrvpbxqyqxevbjofgx.supabase.co";
 const SUPABASE_ANON_KEY = "sb_publishable_xq1C0xh4h1I6f5C0ficPhg_7nf6NUHf";
 const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
